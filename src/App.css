@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Typography */
+
+body {
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.title_text {
+  font-size: 0.9rem;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+}
+
+.location {
+  font-size: 0.75rem;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.link {
+  font-size: 0.75rem;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.dates {
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #2B283A;
+}
+
+.description {
+  font-size: 0.75rem;
+  line-height: 1.5em;
+  color: #2B283A;
+}
+
+/* Layout */
+
+.app {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.title_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #F55A5A;
+
+  padding: 0.6em 0;
+  margin-bottom: 2.5em;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 2em;
+}
+
+img {
+  width: 35%;
+  object-fit: cover;
+}
+
+.cardbox {
+  margin-left: 2em;
+}
+
+.locationbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.location {
+  margin: 0;
+}
+
+.link {
+  margin-left: 0.5em;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
